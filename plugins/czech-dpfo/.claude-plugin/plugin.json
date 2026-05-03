@@ -1,0 +1,13 @@
+{
+  "name": "czech-dpfo",
+  "description": "File a Czech annual personal income-tax return (DPFO) on mojedane.cz — split srážková + zálohová employment case.",
+  "version": "1.0.0",
+  "author": {
+    "name": "MrSucik",
+    "url": "https://github.com/MrSucik"
+  },
+  "homepage": "https://github.com/MrSucik/czech-dpfo",
+  "repository": "https://github.com/MrSucik/czech-dpfo",
+  "license": "MIT",
+  "keywords": ["czech-republic", "tax", "dpfo", "tax-return", "mojedane", "employment", "rzd"]
+}
