@@ -8,7 +8,7 @@
     {
       "name": "czech-dpfo",
       "description": "Walk a Czech employee through filing their annual personal income-tax return (DPFO) on mojedane.cz. Designed for the split srážková + zálohová prohlášení case where the employer cannot do RZD on the employee's behalf. Asks for personal data, persists to KV for reuse, then guides form filling and submission.",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "source": "./plugins/czech-dpfo",
       "homepage": "https://github.com/MrSucik/czech-dpfo",
       "keywords": ["czech-republic", "tax", "dpfo", "tax-return", "mojedane", "employment", "rzd"]

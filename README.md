@@ -1,6 +1,6 @@
 # czech-dpfo
 
-A Claude Code skill that walks a Czech employee through filing their **annual personal income-tax return (DPFO)** on [mojedane.cz](https://adisspr.mfcr.cz/pmd/dis).
+An agent skill that walks a Czech employee through filing their **annual personal income-tax return (DPFO)** on [mojedane.cz](https://adisspr.mfcr.cz/pmd/dis).
 
 Designed for the case the employer **cannot do roční zúčtování daně (RZD)** on the employee's behalf — most often a **split srážková + zálohová prohlášení** at the same employer in one year, which the payroll system can't reconcile. This combination almost always produces a refund.
 
@@ -33,7 +33,7 @@ Czech employment income with a split prohlášení mid-year is a common scenario
 
 ## Install
 
-In an active Claude Code session:
+In an active agent session that supports the plugin format (e.g. Claude Code):
 
 ```
 /plugin marketplace add MrSucik/czech-dpfo

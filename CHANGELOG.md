@@ -4,6 +4,13 @@ All notable changes to the `czech-dpfo` skill are documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2026-05-03
+
+### Changed
+
+- Step 1 (Gather user data) now uses the **`AskUserQuestion`-with-fallback** pattern: batch all fields via the structured-question tool if the agent supports it, otherwise ask inline.
+- README opener and install section reframed to be agent-neutral.
+
 ## [1.0.0] - 2026-05-03
 
 ### Added

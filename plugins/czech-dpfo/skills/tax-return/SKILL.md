@@ -17,9 +17,11 @@ Walk a Czech employee through filing their annual personal income-tax return (DP
 - January–April annually
 - `/tax-return`
 
-## Step 1: Gather user data (store in KV)
+## Step 1: Gather user data (ask, gather, persist)
 
-Before anything else, ask the user for the data below and persist it to a Jarvis-style KV namespace `<year>-tax-return/personal_data` (or wherever you store reusable personal data). Once captured, reuse it next year — only income figures change.
+Before anything else, gather the data below and persist it to a KV namespace `<year>-tax-return/personal_data` (or wherever your agent stores reusable personal data — Jarvis KV, a local file, a memory tool). Once captured, reuse it next year — only income figures change.
+
+**If a structured-question tool is available** (e.g. `AskUserQuestion` in Claude Code), batch all fields into one structured call for best UX. Otherwise ask inline one at a time.
 
 | Field | Notes |
 |---|---|
